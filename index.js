@@ -13,5 +13,18 @@ function filterPallets() {
      }
   }
  }
+
+ const palettes = [
+  {
+    name: 'Nome da paleta',
+    colors: [
+      "2D0651",
+      "401D61",
+      "51326F",
+      "61457C",
+      "6F5688"
+    ]
+  }
+]
  
  document.getElementById('search').addEventListener('keyup', filterPallets);

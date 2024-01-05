@@ -33,22 +33,22 @@ body {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 20px;
-  background-color: #A580CA;
-  color: #f1f1f1;
+  background-color: #f1f1f1;
+  color: #09090b;
  }
  .pallet2 {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 20px;
-  background-color: #A580CA;
-  color: #f1f1f1;
+  background-color: #f1f1f1;
+  color: #09090b;
  }
  .pallet3 {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 20px;
-  background-color: #A580CA;
-  color: #f1f1f1;
+  background-color: #f1f1f1;
+  color: #09090b;
  }
  
  .pallet img {
@@ -62,6 +62,25 @@ body {
   text-align: center;
   position: fixed;
   width: 100%;
-  bottom: 0;
+  bottom: 0; 
+ }
 
+ .colors {
+  display: flex;
+ }
+
+ button {
+  border: none;
+  background-color: #f1f1f1;
+ }
+
+ button img {
+  width: 15px;
+  height: 15px;
+ }
+
+ .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
  }
