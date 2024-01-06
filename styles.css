@@ -8,12 +8,23 @@ body {
  header {
   background-color: #f1f1f1;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
  }
  
- header h1 {
+ header h3 {
   display: inline;
   margin-right: 20px;
+  margin-left: 160px;
  }
+
+ header img {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 160px
+}
 
  main {
   display: flex;
@@ -56,14 +67,6 @@ body {
   height: auto;
  }
  
- footer {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0; 
- }
 
  .colors {
   display: flex;
@@ -83,4 +86,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+ }
+
+
+footer {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 4px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0; 
+  justify-content: center;
+  align-items: center;
+ }
+
+ footer p {
+  font-size: 12px;
+  font-style: normal;
  }
